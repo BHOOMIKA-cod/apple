@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+
+html,body{
+    background-color: white; 
+    height:100%;
+    width:100%;
+}
+#nav{
+    height: 60px;
+width: 100%;
+background-color: rgba(254, 245, 245, 0.664);
+display:flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 150px ;
+padding-right:150px;
+font-weight:normal;
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+position:fixed;
+backdrop-filter: blur(10px)}
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-size:25px;
+}
+#nav i{
+    color:rgb(14, 16, 18);
+    font-size: 30px;
+}
+#box{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/br/images/heroes/iphone-16-pro/hero_iphone16pro_preorder__bw14fpo72niu_large_2x.jpg);
+background-position:center ;
+background-size:cover;
+}
+#text-box{
+    color:white;
+    width:30%;
+    text-align:center;
+    top:15%;
+    position: absolute;
+    left:35%;
+    font-size:40px;
+
+}
+#box button1{
+   
+    font-size:26px;
+    /* font-style:italic; */
+    position:absolute;
+    top:450%;
+    left:180px;
+    padding:15px 30px;
+    border-radius:30px;
+    /* border:9px solid black; */
+    background-color: transparent; 
+    color:white;
+    background-color: #0077ED;   
+} 
+#box button1:hover {
+    cursor:pointer;
+   
+}  
+#box button2{
+   
+    font-size:26px;
+    /* font-style:italic; */
+    position:absolute;
+    top:446%;
+    left:398px;
+    padding:15px 38px;
+    border-radius:30px;
+    border:3px solid #0077ED;
+    background-color: transparent; 
+    color:#0077ED;
+    /* background-color: blue;    */
+} 
+#Box button2:hover{
+    cursor: pointer;
+    background: #0077ED;
+    color: white;
+} 
+#text-box:h5{
+    
+    color:white;
+    width:30%;
+    text-align:center;
+    top:400%;
+    position: absolute;
+    left:35%;
+    /* font-size:40px; */
+} 
+
+#page-2{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/br/images/heroes/iphone-16/hero_iphone16_preorder__djo0elxwjbma_large_2x.jpg);
+background-position:center ;
+background-size:cover;
+}
+#page-3{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/br/images/heroes/apple-watch-series-10/hero_apple_watch_series_10_announce_lte__erybd9d98zau_large.jpg);
+    
+background-position:center ;
+background-size:cover;
+}

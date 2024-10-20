@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+
+html,body{
+    background-color: white; 
+    height:100%;
+    width:100%;
+}
+#box h1{
+    font-weight: 700px;
+    color:white}
+#box{
+    height:100%;
+    width:100%;
+    display:flex;
+    background-color: grey;}
+#left{
+    height:100%;
+    width:50%;
+    background-image: url(https://images.unsplash.com/photo-1726138221391-8a0053f2cc5e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size:cover;
+background-position:  center;
+transition: all ease 0.5s;
+}
+ #left:hover{ 
+    background-image: url(https://images.unsplash.com/photo-1719943754884-e2799f0bc496?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    cursor:pointer;
+}
+#overlayer1{
+    height: 100%;
+    width: 100%;
+    /* background-color: grey; */
+    position:relative;
+}
+#text-left{
+    width:70%;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,50%);
+}
+#right{
+    height:100%;
+    width:50%;
+    background-image: url(https://images.unsplash.com/photo-1719943754884-e2799f0bc496?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size:cover;
+background-position:  center;
+transition: all ease 0.5s;
+}
+ #right:hover{ 
+    background-image: url(https://images.unsplash.com/photo-1726138221391-8a0053f2cc5e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+    cursor:pointer;
+}
+#overlayer2{
+ height: 100%;
+    width: 100%;
+    /* background-color: grey; */
+    position:relative;
+}
+#text-right{
+    width:70%;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,50%);
+}
+#box button{
+ padding: 10px 35px;
+ background-color: transparent;
+ border: 2px solid white;
+ color:white;
+ border-radius: 10px;
+ margin-top:10px;
+ transition:all ease 0.6s;}
+ #box button:hover{
+    color:blueviolet;
+    background-color: plum;
+    cursor:pointer;
+    font-weight: 700px;
+    transform: scale(1.2);
+
+}
